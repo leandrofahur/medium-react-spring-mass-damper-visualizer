@@ -1,10 +1,8 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import SpringMassDamperSimulator from "@/components/SpringMassDamperSimulator";
 import "./App.css";
 
 function App() {
-  return <h1>React spring-mass-damper system</h1>;
+  return <SpringMassDamperSimulator />;
 }
 
 export default App;
